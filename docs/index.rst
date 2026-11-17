@@ -132,9 +132,12 @@ Usage
     while (true)
     {
         float temperature;
-        esp_err_t err = max6675_read_temperature(&dev, &temperature);
+        bool open;
+        esp_err_t err = max6675_read_temperature(&dev, &temperature, &open);
         if (err == ESP_OK)
             ESP_LOGI(TAG, "%.2f °C", temperature);
+        else if (open)
+            ESP_LOGE(TAG, "The thermocouple is open");
         else
             ESP_LOGE(TAG, "Could not read: %s", esp_err_to_name(err));
 

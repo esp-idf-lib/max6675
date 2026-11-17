@@ -1,7 +1,7 @@
 ---
 name: max6675
 description: Driver for MAX6675 cold-junction compensated thermocouple-to-digital converter
-version: 1.0.0
+version: 1.0.1
 groups:
   - temperature
 code_owners: UncleRus
