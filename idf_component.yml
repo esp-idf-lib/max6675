@@ -1,0 +1,15 @@
+---
+version: 1.0.0
+description: Driver for MAX6675 cold-junction compensated thermocouple-to-digital converter
+license: MIT
+dependencies: {}
+url: https://github.com/esp-idf-lib/core
+repository: https://github.com/esp-idf-lib/max6675
+documentation: https://esp-idf-lib.github.io/max6675/
+issues: https://github.com/esp-idf-lib/max6675/issues
+discussion: https://github.com/esp-idf-lib/core/discussions
+files:
+  exclude:
+    - docs/**/*
+maintainers:
+  - Ruslan V. Uss (@UncleRus) <unclerus@gmail.com>
