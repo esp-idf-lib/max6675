@@ -9,7 +9,7 @@
 * [Repository](https://github.com/esp-idf-lib/max6675)
 * [Issues](https://github.com/esp-idf-lib/max6675/issues)
 * [Discussions](https://github.com/esp-idf-lib/core/discussions)
-* [Components Registry](https://components.espressif.com/components?q=esp-idf-lib)
+* [Components Registry](https://components.espressif.com/components/esp-idf-lib/max6675)
 
 ## Features
 
