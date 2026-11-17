@@ -141,7 +141,7 @@ See [examples/default](examples/default).
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/max6675^1.0.0"
+idf.py add-dependency "esp-idf-lib/max6675"
 ```
 
 ## Support
